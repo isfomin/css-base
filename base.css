@@ -94,6 +94,29 @@
   padding-bottom: 20px;
 }
 
+/* =area= */
+.area {}
+.area:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.area.area-col2 .area-i {
+  width: 50%;
+}
+.area.area-col3 .area-i {
+  width: 33.3333%;
+}
+.area.area-col4 .area-i {
+  width: 25%;
+}
+.area.area-col5 .area-i {
+  width: 20%;
+}
+.area-i {
+  float: left;
+}
+
 /* =shift= */
 .shift,
 .shift-c,
