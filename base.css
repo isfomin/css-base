@@ -24,7 +24,7 @@
 /* =cont= */
 .cont,
 .cont-site,
-.cont-hawk {
+.cont-crow {
   margin-left: auto;
   margin-right: auto;
 }
@@ -36,30 +36,6 @@
   width: 940px;
   min-width: 940px;
 }
-
-/* =color= */
-.color-light     { color: #fff; }
-.color-stable    { color: #bfbfbf; }
-.color-positive  { color: #4a87ee; }
-.color-calm      { color: #43cee6; }
-.color-balanced  { color: #66cc33; }
-.color-energized { color: #f7b233; }
-.color-assertive { color: #ef4e3a; }
-.color-royal     { color: #8a6de9; }
-.color-dark      { color: #000; }
-
-/* =bg= */
-.bg-site      { background-color: #fff; }
-.bg-modal     { background-color: rgba(0,0,0,0.5); }
-.bg-light     { background-color: #fff; }
-.bg-stable    { background-color: #bfbfbf; }
-.bg-positive  { background-color: #4a87ee; }
-.bg-calm      { background-color: #43cee6; }
-.bg-balanced  { background-color: #66cc33; }
-.bg-energized { background-color: #f7b233; }
-.bg-assertive { background-color: #ef4e3a; }
-.bg-royal     { background-color: #8a6de9; }
-.bg-dark      { background-color: #000; }
 
 /* =text= */
 .text-c { text-align: center; }
@@ -85,6 +61,7 @@
 }
 
 /* =ln= */
+.ln,
 .ln-equal,
 .ln-fill { 
   display: table; 
@@ -118,6 +95,7 @@
 }
 
 /* =shift= */
+.shift,
 .shift-c,
 .shift-r,
 .shift-l { display: table; }
