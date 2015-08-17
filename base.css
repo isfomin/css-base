@@ -100,12 +100,23 @@
   padding-left: 20px;
 }
 
+/* =list= */
+.list {
+  margin-top: -20px;
+}
+.list-i {
+  padding-top: 20px;
+}
+
 /* =area= */
 .area {}
 .area:after {
   content: "";
   display: block;
   clear: both;
+}
+.area-i {
+  float: left;
 }
 .area.area-col2 .area-i {
   width: 50%;
@@ -118,9 +129,6 @@
 }
 .area.area-col5 .area-i {
   width: 20%;
-}
-.area-i {
-  float: left;
 }
 
 /* =shift= */
