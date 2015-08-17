@@ -85,13 +85,19 @@
 /* =grid= */
 .grid {
   margin-left: -20px;
+  margin-top: -20px;
 }
 .grid-i {
   padding-left: 20px;
-}
-.grid-cell {
-  padding-left: 20px;
   padding-bottom: 20px;
+}
+
+/* =group= */
+.group {
+  margin-left: -20px;
+}
+.group-i {
+  padding-left: 20px;
 }
 
 /* =area= */
