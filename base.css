@@ -110,7 +110,13 @@
 
 /* =area= */
 .area {}
+.area:before,
 .area:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.area-row:after {
   content: "";
   display: block;
   clear: both;
